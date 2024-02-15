@@ -1,0 +1,99 @@
+
+*
+{
+    transition: 0.5s;
+}
+body
+{
+    background:url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+.div
+{
+    width: 360px;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+.title
+{
+    background: url(back.jpg);
+    padding: 2rem;
+    color: white;
+    background-size: cover;
+    height: 12rem;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.heading
+{
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 40px;
+}
+
+.form
+{
+    background-color: white;
+    padding: 2rem;
+}
+.input
+{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 1rem;
+}
+input
+{
+    padding: 0.5rem;
+    border: 0.1rem solid rgb(197, 197, 197);
+}
+
+input:focus
+{
+    border: 0.05rem solid rgb(242, 242, 242);
+    background-color: rgb(233, 233, 233);
+}
+
+.button 
+{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+button
+{
+    color: white;
+    background-color: #d11b73;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+button:hover
+{
+    background-color: #bf1a33;
+    transform: scale(1.06);
+}
+.login
+{
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 40px;
+    color: rgb(183, 21, 134);
+}
+.over
+{
+    padding: 2rem;
+}
+.row
+{
+    align-items: center;
+}
+.phrase
+{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
